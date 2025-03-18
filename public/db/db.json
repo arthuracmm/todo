@@ -1,0 +1,82 @@
+{
+    "tarefas": [
+      {
+        "id": 1,
+        "title": "Compras no supermercado",
+        "description": "Ir ao supermercado e comprar itens para a semana.",
+        "due_date": "2025-03-20T18:00:00Z",
+        "status": "pending",
+        "priority": "high",
+        "category": "Casa",
+        "is_recurring": false
+      },
+      {
+        "id": 2,
+        "title": "Reunião com cliente",
+        "description": "Reunião para apresentar o novo projeto de desenvolvimento.",
+        "due_date": "2025-03-19T14:00:00Z",
+        "status": "pending",
+        "priority": "medium",
+        "category": "Trabalho",
+        "is_recurring": false
+      },
+      {
+        "id": 3,
+        "title": "Pagar contas de energia",
+        "description": "Pagar as contas de energia elétrica e água para evitar atraso.",
+        "due_date": "2025-03-22T10:00:00Z",
+        "status": "completed",
+        "priority": "high",
+        "category": "Financeiro",
+        "is_recurring": true
+      },
+      {
+        "id": 4,
+        "title": "Estudar para o exame de matemática",
+        "description": "Revisar os tópicos de álgebra e geometria para o exame de sexta-feira.",
+        "due_date": "2025-03-21T09:00:00Z",
+        "status": "pending",
+        "priority": "high",
+        "category": "Estudos",
+        "is_recurring": false
+      },
+      {
+        "id": 5,
+        "title": "Limpar o apartamento",
+        "description": "Fazer a limpeza geral do apartamento, incluindo banheiro e cozinha.",
+        "due_date": "2025-03-20T16:00:00Z",
+        "status": "pending",
+        "priority": "low",
+        "category": "Casa",
+        "is_recurring": true
+      },
+      {
+        "id": 6,
+        "title": "Treinar na academia",
+        "description": "Fazer treino de pernas e costas na academia.",
+        "due_date": "2025-03-19T07:00:00Z",
+        "status": "pending",
+        "priority": "medium",
+        "category": "Saúde",
+        "is_recurring": true
+      },
+      {
+        "id": 7,
+        "title": "Revisar código do projeto",
+        "description": "Verificar o código do projeto para corrigir possíveis erros antes do deploy.",
+        "due_date": "2025-03-20T12:00:00Z",
+        "status": "pending",
+        "priority": "high",
+        "category": "Trabalho",
+        "is_recurring": false
+      },
+      {
+        "id": 8,
+        "title": "Ler capítulo do livro",
+        "description": "Ler o capítulo 5 do livro 'O Pequeno Príncipe'.",
+        "due_date": "2025-03-18T20:00:00Z",
+        "status": "completed",
+        "priority":
+      }
+    ]
+}  

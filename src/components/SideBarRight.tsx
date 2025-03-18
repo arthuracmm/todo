@@ -12,10 +12,11 @@ export function SideBarRight() {
                     </div>
                     <Ellipsis className="text-zinc-600" />
                 </div>
-
+            </div>
+            <div className="flex flex-col w-full items-center gap-8">
                 <div className="flex flex-col">
                     <img src="https://rseat.pics/" alt="a" className="size-30 object-cover rounded-full" />
-                    <h1 className="font-bold">Nome do usuario</h1>
+                    <h1 className="font-bold mt-2">Nome do usuario</h1>
                     <p className="font-light text-zinc-600 text-sm">usuario@gmail.com</p>
                 </div>
 
@@ -83,12 +84,12 @@ export function SideBarRight() {
                     <p className="font-light text-zinc-600 text-sm">Você tem <span className="text-green-500 font-semibold">6 convites</span> para projetos</p>
                 </div>
                 <div className="flex bg-zinc-100 w-full p-2 rounded-lg justify-between items-center">
-                    <Mail className="text-green-500"/>
+                    <Mail className="text-green-500" />
                     <div className="flex flex-col">
                         <p className="font-semibold text-lg">Arthur Cesar</p>
                         <p className="text-sm">Arthur convidou você</p>
                     </div>
-                    <ChevronRight className="text-green-500"/>
+                    <ChevronRight className="text-green-500" />
                 </div>
             </div>
 

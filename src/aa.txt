@@ -1,0 +1,67 @@
+1. Página de Tarefas Pendentes (Listagem de Tarefas)
+Objetivo: Uma página onde o usuário pode ver todas as tarefas que estão em andamento, ou que ainda não foram concluídas.
+Recursos:
+Filtros para mostrar tarefas por data de vencimento, prioridade, ou categoria.
+Botão para marcar tarefas como concluídas ou para editar detalhes.
+Opção para ordenar tarefas por nome, data de vencimento ou prioridade.
+2. Página de Tarefas Concluídas
+Objetivo: Mostrar todas as tarefas que o usuário já completou.
+Recursos:
+Histórico das tarefas concluídas.
+Possibilidade de restaurar tarefas concluídas de volta para a lista pendente.
+Estatísticas sobre quantas tarefas o usuário completou no mês ou semana.
+Uma opção para limpar ou arquivar tarefas antigas.
+3. Página de Categorias
+Objetivo: Permitir que o usuário organize suas tarefas por categorias.
+Recursos:
+Listar categorias como "Trabalho", "Casa", "Estudos", etc.
+Cada categoria pode ter uma lista de tarefas atribuídas a ela.
+Opção para adicionar, editar ou excluir categorias.
+Filtros para ver tarefas por categoria na página principal.
+4. Página de Tarefas Recorrentes
+Objetivo: Para gerenciar tarefas que precisam ser realizadas regularmente, como "ir à academia", "pagar contas", etc.
+Recursos:
+Adicionar tarefas recorrentes com frequência personalizada (diária, semanal, mensal).
+Definir lembretes automáticos para essas tarefas.
+Visualizar o histórico de tarefas recorrentes (quantas vezes foram feitas).
+5. Página de Notificações
+Objetivo: Exibir todas as notificações e lembretes de tarefas que o usuário criou ou que o sistema gerou para ele.
+Recursos:
+Notificações sobre tarefas vencidas ou prestes a vencer.
+Opção de marcar notificações como lidas ou excluí-las.
+
+6. Página de Definições
+Objetivo: Permitir que o usuário personalize a experiência no sistema.
+Recursos:
+Alterar preferências de notificações (tipo de lembrete, frequência).
+Definir temas (modo claro/escuro).
+Configurar a visualização das tarefas (listas, kanban, etc.).
+Integrar com outros calendários ou apps de produtividade.
+
+7. Página de Colaboração
+Objetivo: Permitir que o usuário compartilhe suas listas de tarefas com outros usuários ou colegas.
+Recursos:
+Criação de tarefas compartilhadas.
+Atribuição de tarefas para outras pessoas.
+Visualizar quem está trabalhando em uma tarefa e o progresso.
+
+8. Página de Estatísticas (ou Relatórios)
+Objetivo: Uma página dedicada ao acompanhamento de progresso.
+Recursos:
+Gráficos sobre o número de tarefas concluídas ao longo do tempo.
+Comparações entre tarefas realizadas e pendentes.
+Relatórios de produtividade (ex: quanto tempo foi gasto em cada tarefa, frequência de atrasos, etc.).
+
+9. Página de Inspiração ou Motivação
+Objetivo: Um lugar para manter o usuário motivado e engajado com suas tarefas.
+Recursos:
+Citações motivacionais diárias.
+Desafios ou metas de produtividade.
+Sistema de pontos ou recompensas por completar tarefas.
+
+10. Página de Backup e Sincronização
+Objetivo: Oferecer uma maneira para o usuário salvar e sincronizar suas tarefas entre dispositivos.
+Recursos:
+Backup automático das tarefas em nuvem.
+Sincronização com outros dispositivos ou plataformas.
+Essas ideias podem dar uma gama interessante de funcionalidades e áreas para o seu sistema de To-Do List crescer e tornar-se mais robusto. O que você acha? Já tem alguma dessas ideias implementadas, ou quer explorar mais algum desses pontos?
