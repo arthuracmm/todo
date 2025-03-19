@@ -7,7 +7,7 @@ export function SideBarRight() {
             <div className="flex flex-col w-full items-center gap-4">
                 <div className="flex justify-between w-full items-center">
                     <div className="flex flex-col">
-                        <p className="font-bold">My profile</p>
+                        <p className="font-bold">Meu perfil</p>
                         <p className="font-light text-zinc-600 text-sm">Seu perfil está <span className="text-green-500 font-semibold">00%</span> completo</p>
                     </div>
                     <Ellipsis className="text-zinc-600" />

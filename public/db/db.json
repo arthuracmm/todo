@@ -69,14 +69,6 @@
         "priority": "high",
         "category": "Trabalho",
         "is_recurring": false
-      },
-      {
-        "id": 8,
-        "title": "Ler capítulo do livro",
-        "description": "Ler o capítulo 5 do livro 'O Pequeno Príncipe'.",
-        "due_date": "2025-03-18T20:00:00Z",
-        "status": "completed",
-        "priority":
       }
     ]
 }  
