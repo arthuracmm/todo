@@ -1,7 +1,9 @@
+import { MonthsChart } from "@/components/MonthsChart";
 import { RecentsTasks } from "../components/RecentsTasks";
 import { SearchBar } from "../components/SearchBar";
 import { SideBarLeft } from "../components/SideBarLeft";
 import { SideBarRight } from "../components/SideBarRight";
+import { Progress } from "@/components/Progress";
 
 export function Home (){
     return(
@@ -10,6 +12,10 @@ export function Home (){
             <div className="flex flex-col flex-1 ml-50 mr-70 h-screen overflow-y-scroll box-border py-4 px-8 gap-4">
                 <SearchBar/>
                 <RecentsTasks />
+                <div className="flex w-full">
+                    <MonthsChart />
+                    <Progress />
+                </div>
             </div>
             <SideBarRight />
         </div>

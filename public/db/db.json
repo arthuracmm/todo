@@ -70,5 +70,19 @@
       "category": "Trabalho",
       "is_recurring": false
     }
+  ],
+  "tarefasmes": [
+    { "month": "Janeiro", "tarefas": 33 },
+    { "month": "Fevereiro", "tarefas": 47 },
+    { "month": "Março", "tarefas": 25 },
+    { "month": "Abril", "tarefas": 50 },
+    { "month": "Maio", "tarefas": 62 },
+    { "month": "Junho", "tarefas": 46},
+    { "month": "Julho", "tarefas": 46},
+    { "month": "Agosto", "tarefas": 46},
+    { "month": "Setembro", "tarefas": 46},
+    { "month": "Outubro", "tarefas": 46},
+    { "month": "Novembro", "tarefas": 46},
+    { "month": "Dezembro", "tarefas": 46},
   ]
 }

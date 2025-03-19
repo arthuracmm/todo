@@ -54,7 +54,7 @@ export function SideBarLeft() {
     return (
         <div className="flex flex-col fixed left-0 top-0 h-full w-50 bg-white justify-between items-center p-4">
             <div className="flex flex-col justify-center items-center gap-8 w-fu">
-                <div className="flex">
+                <div className="flex gap-2 items-center">
                     <h1 className="flex font-bold text-2xl bg-green-400 size-10 text-center rounded-full text-white items-center justify-center">T</h1>
                     <h1 className="font-bold text-2xl">ToDo.</h1>
                 </div>
