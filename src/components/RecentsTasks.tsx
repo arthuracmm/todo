@@ -32,7 +32,7 @@ export function RecentsTasks() {
       const updatedTasks = prevState.map((task) => {
         if (task.id === taskId) {
           const updatedStatus: 'pending' | 'completed' = task.status === 'pending' ? 'completed' : 'pending';
-          return { ...task, status: updatedStatus }; // Atualiza o status
+          return { ...task, status: updatedStatus };
         }
         return task;
       });

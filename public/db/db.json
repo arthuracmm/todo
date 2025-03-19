@@ -72,17 +72,65 @@
     }
   ],
   "tarefasmes": [
-    { "month": "Janeiro", "tarefas": 33 },
-    { "month": "Fevereiro", "tarefas": 47 },
-    { "month": "Março", "tarefas": 25 },
-    { "month": "Abril", "tarefas": 50 },
-    { "month": "Maio", "tarefas": 62 },
-    { "month": "Junho", "tarefas": 46},
-    { "month": "Julho", "tarefas": 46},
-    { "month": "Agosto", "tarefas": 46},
-    { "month": "Setembro", "tarefas": 46},
-    { "month": "Outubro", "tarefas": 46},
-    { "month": "Novembro", "tarefas": 46},
-    { "month": "Dezembro", "tarefas": 46},
+    {
+      "month": "Janeiro",
+      "tarefas": 33,
+      "id": "839a"
+    },
+    {
+      "month": "Fevereiro",
+      "tarefas": 47,
+      "id": "0061"
+    },
+    {
+      "month": "Março",
+      "tarefas": 25,
+      "id": "be55"
+    },
+    {
+      "month": "Abril",
+      "tarefas": 50,
+      "id": "4c6a"
+    },
+    {
+      "month": "Maio",
+      "tarefas": 62,
+      "id": "c7b4"
+    },
+    {
+      "month": "Junho",
+      "tarefas": 46,
+      "id": "bfb4"
+    },
+    {
+      "month": "Julho",
+      "tarefas": 46,
+      "id": "352c"
+    },
+    {
+      "month": "Agosto",
+      "tarefas": 46,
+      "id": "c914"
+    },
+    {
+      "month": "Setembro",
+      "tarefas": 46,
+      "id": "82b9"
+    },
+    {
+      "month": "Outubro",
+      "tarefas": 46,
+      "id": "23cc"
+    },
+    {
+      "month": "Novembro",
+      "tarefas": 46,
+      "id": "6ca7"
+    },
+    {
+      "month": "Dezembro",
+      "tarefas": 46,
+      "id": "484d"
+    }
   ]
 }

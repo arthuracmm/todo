@@ -2,7 +2,7 @@ import { Calendar, ChevronDown, Search } from "lucide-react";
 
 export function SearchBar() {
     return (
-        <div className="flex w-full justify-between">
+        <div className="flex w-full justify-between mb-5">
             <div className="flex items-center bg-white rounded-lg overflow-hidden">
                 <input type="text" placeholder="Achar sua Tarefa" className="p-2 w-100 bg-white pl-4 outline-none" />
                 <div className="flex h-[80%] w-0.5 bg-zinc-100" />

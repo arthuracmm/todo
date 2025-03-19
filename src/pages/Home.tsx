@@ -4,6 +4,8 @@ import { SearchBar } from "../components/SearchBar";
 import { SideBarLeft } from "../components/SideBarLeft";
 import { SideBarRight } from "../components/SideBarRight";
 import { Progress } from "../components/Progress";
+import { LastWeek } from "@/components/LastWeek";
+import { Welcome } from "@/components/welcome";
 
 export function Home (){
     return(
@@ -11,10 +13,12 @@ export function Home (){
             <SideBarLeft />
             <div className="flex flex-col flex-1 ml-50 mr-70 h-screen overflow-y-scroll box-border py-4 px-8 gap-4">
                 <SearchBar/>
+                <Welcome />
                 <RecentsTasks />
-                <div className="flex w-full justify-between">
+                <div className="flex w-full justify-between gap-4">
                     <MonthsChart />
                     <Progress/>
+                    <LastWeek />
                 </div>
             </div>
             <SideBarRight />

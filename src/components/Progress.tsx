@@ -40,7 +40,7 @@ export function Progress() {
                     <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold">{percentage}<sup className="text-[18px]">%</sup></p>
                 </div>
             </div>
-            <div className="w-50 h-0.5 bg-white/40" />
+            <div className="w-70 h-0.5 bg-white/40" />
             <div className="flex w-full justify-between">
                 <div className="flex flex-col">
                     <p className="text-white text-xl font-bold">35<sup className="text-xs">%</sup></p>
