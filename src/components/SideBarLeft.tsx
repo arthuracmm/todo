@@ -50,7 +50,11 @@ const verifyPath = (path: string) => {
         : 'text-zinc-500';
 }
 
-export function SideBarLeft() {
+interface SideBarLeftProps {
+    showTaskModal: () => void;
+}
+
+export function SideBarLeft({ showTaskModal }: SideBarLeftProps) {
     return (
         <div className="flex flex-col fixed left-0 top-0 h-full w-50 bg-white justify-between items-center p-4">
             <div className="flex flex-col justify-center items-center gap-8 w-fu">
@@ -60,7 +64,9 @@ export function SideBarLeft() {
                 </div>
                 <div className="flex bg-zinc-200 rounded-xl py-2 px-4 items-center shadow-lg justify-between">
                     <p className="w-20 text-sm">Criar <br />Nova Tarefa</p>
-                    <Plus className="bg-green-500 text-white box-border rounded-full p-2 size-10 shadow-lg" />
+                    <button onClick={showTaskModal} className="cursor-pointer">
+                        <Plus className="bg-green-500 text-white box-border rounded-full p-2 size-10 shadow-lg" />
+                    </button>
                 </div>
                 <div className="flex flex-col gap-8">
                     {items.map((item) => (

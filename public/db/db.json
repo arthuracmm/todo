@@ -7,8 +7,7 @@
       "due_date": "2025-03-20T18:00:00Z",
       "status": "pending",
       "priority": "high",
-      "category": "Casa",
-      "is_recurring": false
+      "category": "Casa"
     },
     {
       "id": "2",
@@ -17,8 +16,7 @@
       "due_date": "2025-03-19T14:00:00Z",
       "status": "pending",
       "priority": "medium",
-      "category": "Trabalho",
-      "is_recurring": false
+      "category": "Trabalho"
     },
     {
       "id": "3",
@@ -27,8 +25,7 @@
       "due_date": "2025-03-19T14:00:00Z",
       "status": "pending",
       "priority": "medium",
-      "category": "Trabalho",
-      "is_recurring": false
+      "category": "Trabalho"
     },
     {
       "id": "4",
@@ -37,8 +34,7 @@
       "due_date": "2025-03-21T09:00:00Z",
       "status": "pending",
       "priority": "high",
-      "category": "Estudos",
-      "is_recurring": false
+      "category": "Estudos"
     },
     {
       "id": "5",
@@ -47,8 +43,7 @@
       "due_date": "2025-03-20T16:00:00Z",
       "status": "pending",
       "priority": "low",
-      "category": "Casa",
-      "is_recurring": true
+      "category": "Casa"
     },
     {
       "id": "6",
@@ -57,8 +52,7 @@
       "due_date": "2025-03-19T07:00:00Z",
       "status": "pending",
       "priority": "medium",
-      "category": "Saúde",
-      "is_recurring": true
+      "category": "Saúde"
     },
     {
       "id": "7",
@@ -67,8 +61,25 @@
       "due_date": "2025-03-20T12:00:00Z",
       "status": "pending",
       "priority": "high",
-      "category": "Trabalho",
-      "is_recurring": false
+      "category": "Trabalho"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "name": "Casa"
+    },
+    {
+      "id": "2",
+      "name": "Trabalho"
+    },
+    {
+      "id": "3",
+      "name": "Estudos"
+    },
+    {
+      "id": "4",
+      "name": "Saúde"
     }
   ],
   "tarefasmes": [
