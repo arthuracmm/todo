@@ -52,13 +52,13 @@ export function RecentsTasks() {
   };
 
   return (
-    <div className="flex flex-col w-full gap-2">
+    <div className="flex flex-col gap-2 overflow-hidden">
       <h1 className="text-3xl font-bold">Últimas Tarefas Criadas</h1>
       <div className="flex w-30 h-0.5 rounded-full bg-green-500" />
       <div className="flex gap-2 overflow-x-hidden w-screen">
       {tasks.map((task) => (
-          <div key={task.id} className="flex p-2 bg-white w-fit gap-2 rounded-lg">
-            <p className={`${task.status === 'completed' ? 'line-through text-zinc-500' : ''}`}>
+          <div key={task.id} className="flex p-2 bg-white gap-2 rounded-lg">
+            <p className={`${task.status === 'completed' ? 'line-through text-zinc-500' : ''} truncate`}>
               {task.title}
             </p>
             <button onClick={() => toggleTaskCompletion(task.id)}>
