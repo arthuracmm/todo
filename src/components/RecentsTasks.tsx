@@ -53,7 +53,7 @@ export function RecentsTasks() {
 
   return (
     <div className="flex flex-col gap-2 overflow-hidden">
-      <h1 className="text-3xl font-bold">Últimas Tarefas Criadas</h1>
+      <h1 className="text-3xl font-bold">Proximas Tarefas</h1>
       <div className="flex w-30 h-0.5 rounded-full bg-green-500" />
       <div className="flex gap-2 overflow-x-hidden w-screen">
       {tasks.map((task) => (

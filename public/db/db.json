@@ -6,7 +6,7 @@
       "description": "Ir ao supermercado e comprar itens para a semana.",
       "due_date": "2025-03-20T18:00:00Z",
       "status": "pending",
-      "priority": "high",
+      "priority": "Alta",
       "category": "Casa"
     },
     {
@@ -15,7 +15,7 @@
       "description": "Reunião para apresentar o novo projeto de desenvolvimento.",
       "due_date": "2025-03-19T14:00:00Z",
       "status": "pending",
-      "priority": "medium",
+      "priority": "Média",
       "category": "Trabalho"
     },
     {
@@ -24,7 +24,7 @@
       "description": "Reunião para apresentar o novo projeto de desenvolvimento.",
       "due_date": "2025-03-19T14:00:00Z",
       "status": "pending",
-      "priority": "medium",
+      "priority": "Média",
       "category": "Trabalho"
     },
     {
@@ -33,7 +33,7 @@
       "description": "Revisar os tópicos de álgebra e geometria para o exame de sexta-feira.",
       "due_date": "2025-03-21T09:00:00Z",
       "status": "pending",
-      "priority": "high",
+      "priority": "Alta",
       "category": "Estudos"
     },
     {
@@ -42,7 +42,7 @@
       "description": "Fazer a limpeza geral do apartamento, incluindo banheiro e cozinha.",
       "due_date": "2025-03-20T16:00:00Z",
       "status": "pending",
-      "priority": "low",
+      "priority": "Baixa",
       "category": "Casa"
     },
     {
@@ -51,7 +51,7 @@
       "description": "Fazer treino de pernas e costas na academia.",
       "due_date": "2025-03-19T07:00:00Z",
       "status": "pending",
-      "priority": "medium",
+      "priority": "Média",
       "category": "Saúde"
     },
     {
@@ -60,7 +60,7 @@
       "description": "Verificar o código do projeto para corrigir possíveis erros antes do deploy.",
       "due_date": "2025-03-20T12:00:00Z",
       "status": "pending",
-      "priority": "high",
+      "priority": "Alta",
       "category": "Trabalho"
     }
   ],

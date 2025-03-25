@@ -1,4 +1,4 @@
-import welcomeSVG from '../../public/images/undraw_hello_ccwj.svg'
+import welcomeSVG from '/images/undraw_hello_ccwj.svg'
 
 export function Welcome() {
     return (
