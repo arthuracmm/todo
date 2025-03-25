@@ -8,12 +8,6 @@ const items = [
         icon: LayoutDashboard,
     },
     {
-        title: "Estatisticas",
-        url: "/estatisticas",
-        icon: ChartLine,
-    },
-
-    {
         title: "Pendentes",
         url: "/pendentes",
         icon: ClockAlert,
