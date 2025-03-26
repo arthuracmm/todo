@@ -67,19 +67,23 @@
   "categorias": [
     {
       "id": "1",
-      "name": "Casa"
+      "name": "Casa",
+      "icon": "House"
     },
     {
       "id": "2",
-      "name": "Trabalho"
+      "name": "Trabalho",
+      "icon": "Briefcase"
     },
     {
       "id": "3",
-      "name": "Estudos"
+      "name": "Estudos",
+      "icon": "Notebook"
     },
     {
       "id": "4",
-      "name": "Saúde"
+      "name": "Saúde",
+      "icon": "HeartPulse"
     }
   ],
   "tarefasmes": [
