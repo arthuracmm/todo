@@ -1,68 +1,68 @@
 {
   "tarefas": [
-  {
-    "id": "1",
-    "title": "Compras no supermercado",
-    "description": "Ir ao supermercado e comprar itens para a semana.",
-    "due_date": "2025-03-28T18:00:00Z", 
-    "status": "pending",
-    "priority": "Alta",
-    "category": "Casa"
-  },
-  {
-    "id": "2",
-    "title": "Reunião com cliente Junior",
-    "description": "Reunião para apresentar o novo projeto de desenvolvimento.",
-    "due_date": "2025-03-30T14:00:00Z", 
-    "status": "pending",
-    "priority": "Média",
-    "category": "Trabalho"
-  },
-  {
-    "id": "3",
-    "title": "Reunião com cliente Andre",
-    "description": "Reunião para apresentar o novo projeto de desenvolvimento.",
-    "due_date": "2025-03-26T14:00:00Z", 
-    "status": "pending",
-    "priority": "Média",
-    "category": "Trabalho"
-  },
-  {
-    "id": "4",
-    "title": "Estudar para o exame de matemática",
-    "description": "Revisar os tópicos de álgebra e geometria para o exame de sexta-feira.",
-    "due_date": "2025-04-01T09:00:00Z", 
-    "status": "completed",
-    "priority": "Alta",
-    "category": "Estudos"
-  },
-  {
-    "id": "5",
-    "title": "Limpar o apartamento",
-    "description": "Fazer a limpeza geral do apartamento, incluindo banheiro e cozinha.",
-    "due_date": "2025-03-26T16:00:00Z", 
-    "status": "pending",
-    "priority": "Baixa",
-    "category": "Casa"
-  },
-  {
-    "id": "6",
-    "title": "Treinar na academia",
-    "description": "Fazer treino de pernas e costas na academia.",
-    "due_date": "2025-03-26T07:00:00Z",  
-    "status": "pending",
-    "priority": "Média",
-    "category": "Saúde"
-  },
-  {
-    "id": "7",
-    "title": "Revisar código do projeto",
-    "description": "Verificar o código do projeto para corrigir possíveis erros antes do deploy.",
-    "due_date": "2025-03-26T12:00:00Z", 
-    "status": "pending",
-    "priority": "Alta",
-    "category": "Trabalho"
-  }
+    {
+      "id": "1",
+      "title": "Compras no supermercado",
+      "description": "Ir ao supermercado e comprar itens para a semana.",
+      "due_date": "2025-03-28T18:00:00Z",
+      "status": "pending",
+      "priority": "Alta",
+      "category": "Casa"
+    },
+    {
+      "id": "2",
+      "title": "Reunião com cliente Junior",
+      "description": "Reunião para apresentar o novo projeto de desenvolvimento.",
+      "due_date": "2025-03-30T14:00:00Z",
+      "status": "pending",
+      "priority": "Média",
+      "category": "Trabalho"
+    },
+    {
+      "id": "3",
+      "title": "Reunião com cliente Andre",
+      "description": "Reunião para apresentar o novo projeto de desenvolvimento.",
+      "due_date": "2025-03-26T14:00:00Z",
+      "status": "pending",
+      "priority": "Média",
+      "category": "Trabalho"
+    },
+    {
+      "id": "4",
+      "title": "Estudar para o exame de matemática",
+      "description": "Revisar os tópicos de álgebra e geometria para o exame de sexta-feira.",
+      "due_date": "2025-04-01T09:00:00Z",
+      "status": "pending",
+      "priority": "Alta",
+      "category": "Estudos"
+    },
+    {
+      "id": "5",
+      "title": "Limpar o apartamento",
+      "description": "Fazer a limpeza geral do apartamento, incluindo banheiro e cozinha.",
+      "due_date": "2025-03-26T16:00:00Z",
+      "status": "pending",
+      "priority": "Baixa",
+      "category": "Casa"
+    },
+    {
+      "id": "6",
+      "title": "Treinar na academia",
+      "description": "Fazer treino de pernas e costas na academia.",
+      "due_date": "2025-03-26T07:00:00Z",
+      "status": "pending",
+      "priority": "Média",
+      "category": "Saúde"
+    },
+    {
+      "id": "7",
+      "title": "Revisar código do projeto",
+      "description": "Verificar o código do projeto para corrigir possíveis erros antes do deploy.",
+      "due_date": "2025-03-26T12:00:00Z",
+      "status": "pending",
+      "priority": "Alta",
+      "category": "Trabalho"
+    }
   ],
   "categorias": [
     {

@@ -3,7 +3,7 @@ import { SideBarLeft } from "@/components/SideBarLeft";
 import { SideBarRight } from "@/components/SideBarRight";
 import { Welcome } from "@/components/Welcome";
 import axios from "axios";
-import { Calendar, Circle, CircleCheck, Clock } from "lucide-react";
+import { Calendar, Circle, CircleCheck, Clock, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 type Task = {
@@ -41,6 +41,39 @@ export function Pendentes() {
             });
     }, []);
 
+    const toggleTaskCompletion = (taskId: string) => {
+        setTasks((prevState) => {
+            const updatedTasks = prevState.map((task) => {
+                if (task.id === taskId) {
+                    const updatedStatus: 'pending' | 'completed' = task.status === 'pending' ? 'completed' : 'pending';
+                    return { ...task, status: updatedStatus };
+                }
+                return task;
+            });
+            return updatedTasks;
+        });
+
+        const taskToUpdate = tasks.find(task => task.id === taskId);
+        if (taskToUpdate) {
+            axios.put(`http://localhost:5000/tarefas/${taskId}`, {
+                ...taskToUpdate,
+                status: taskToUpdate.status === 'pending' ? 'completed' : 'pending'
+            })
+                .catch(error => {
+                    console.error("Erro ao atualizar status:", error);
+                });
+        }
+    };
+
+    const taskDelete = (taskId: string) => {
+        if (window.confirm('Tem certeza que deseja deletar essa tarefa?')) {
+            axios.delete(`http://localhost:5000/tarefas/${taskId}`)
+            console.log('Tarefa deletada com sucesso')
+        } else {
+            console.log('Tarefa nao deletada')
+        }
+    }
+
     return (
         <div className="font-outfit flex bg-zinc-200">
             <NewTask isVisible={isTaskVisible} hideTaskModal={hideTaskModal} />
@@ -63,41 +96,46 @@ export function Pendentes() {
                             return (
                                 <div className={`${task.status === 'completed' ? 'opacity-50 bg-zinc-300' : 'bg-white'} flex p-2 justify-between rounded-lg items-center`} key={task.id}>
                                     <div className={`${task.status === 'completed' ? 'line-through text-zinc-500' : ''} flex flex-col`}>
-                                    <p className= 'truncate text-xl font-semibold'>
-                                        {task.title}
-                                    </p>
-                                    <p className={`${task.priority === 'Alta' ? 'bg-red-500' : task.priority === 'Média' ? 'bg-yellow-500' : 'bg-green-500'} w-fit px-2 rounded-md text-[10px] text-white`}>
-                                        {task.priority}
-                                    </p>
+                                        <p className='truncate text-xl font-semibold'>
+                                            {task.title}
+                                        </p>
+                                        <p className={`${task.priority === 'Alta' ? 'bg-red-500' : task.priority === 'Média' ? 'bg-yellow-500' : 'bg-green-500'} w-fit px-2 rounded-md text-[10px] text-white`}>
+                                            {task.priority}
+                                        </p>
                                     </div>
-                                    <div className="flex gap-2">
+                                    <div className="flex gap-2 h-full w-fit items-center">
                                         <div className="flex flex-col gap-1">
                                             <div className="flex bg-zinc-100 p-1 rounded-lg gap-2">
-                                                <Calendar className="flex"/>
+                                                <Calendar className="flex" />
                                                 <p>{`${day}/${monthYear}`}</p>
                                             </div>
                                             <div className="flex bg-zinc-100 p-1 rounded-lg gap-2">
-                                                <Clock className="flex"/>
+                                                <Clock className="flex" />
                                                 <p>{time}</p>
                                             </div>
                                         </div>
                                         <div className="flex">
                                             <button>
                                                 {task.status === 'completed' ? (
-                                                    <div className="flex gap-1">
-                                                    <CircleCheck className="text-green-500" />
-                                                    <p>Completo</p>
-                                                    </div>
+                                                    <button className="flex gap-1" onClick={() => toggleTaskCompletion(task.id)}>
+                                                        <CircleCheck className="text-green-500" />
+                                                        <p>Completo</p>
+                                                    </button>
                                                 ) : (
-                                                    <div className="flex gap-1">
-                                                    <Circle />
-                                                    <p>Pendente</p>
-                                                    </div>
+                                                    <button className="flex gap-1" onClick={() => toggleTaskCompletion(task.id)}>
+                                                        <Circle />
+                                                        <p>Pendente</p>
+                                                    </button>
                                                 )}
                                             </button>
                                             <p>
                                             </p>
                                         </div>
+
+                                        <button className="flex bg-red-500 p-2 text-white rounded-md items-center aspect-square h-full w-full cursor-pointer"
+                                        onClick={() => taskDelete(task.id)}>
+                                            <X />
+                                        </button>
                                     </div>
                                 </div>
                             );
