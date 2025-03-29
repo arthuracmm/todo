@@ -21,7 +21,7 @@ type Category = {
     icon: string
 };
 
-export function Pendentes() {
+export function ProximasTarefas() {
     const [isTaskVisible, setIsTaskVisible] = useState(false);
     const [tasks, setTasks] = useState<Task[]>([]);
     const [categorys, setCategorys] = useState<Category[]>([]);
@@ -116,7 +116,7 @@ export function Pendentes() {
                 <div className="flex flex-col w-full h-full ">
                     <div className="flex w-full justify-between">
                         <div className="flex flex-col">
-                            <h1 className="text-3xl font-bold">Tarefas Pendentes</h1>
+                            <h1 className="text-3xl font-bold">Proximas Tarefas</h1>
                             <div className="flex w-30 h-0.5 rounded-full bg-green-500" />
                         </div>
                         <div className="flex gap-2 cursor-pointer">
@@ -179,10 +179,8 @@ export function Pendentes() {
                                     {tasks
                                         .filter((task: Task) =>
                                             task.category === category.name &&
-                                            new Date(task.due_date) >= new Date() &&
-                                            task.status === 'pending'
+                                            new Date(task.due_date) >= new Date()
                                         )
-                                        .slice(0,5)
                                         .map((task: Task) => {
                                             const dueDate = new Date(task.due_date);
 

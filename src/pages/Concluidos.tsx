@@ -5,6 +5,7 @@ import { Welcome } from "@/components/Welcome";
 import axios from "axios";
 import { Calendar, ChevronDown, ChevronUp, Circle, CircleCheck, Clock, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { House, Briefcase, Notebook, HeartPulse } from "lucide-react";
 
 type Task = {
     id: string;
@@ -21,7 +22,7 @@ type Category = {
     icon: string
 };
 
-export function Pendentes() {
+export function Concluidos() {
     const [isTaskVisible, setIsTaskVisible] = useState(false);
     const [tasks, setTasks] = useState<Task[]>([]);
     const [categorys, setCategorys] = useState<Category[]>([]);
@@ -116,7 +117,7 @@ export function Pendentes() {
                 <div className="flex flex-col w-full h-full ">
                     <div className="flex w-full justify-between">
                         <div className="flex flex-col">
-                            <h1 className="text-3xl font-bold">Tarefas Pendentes</h1>
+                            <h1 className="text-3xl font-bold">Tarefas Concluidas</h1>
                             <div className="flex w-30 h-0.5 rounded-full bg-green-500" />
                         </div>
                         <div className="flex gap-2 cursor-pointer">
@@ -180,7 +181,7 @@ export function Pendentes() {
                                         .filter((task: Task) =>
                                             task.category === category.name &&
                                             new Date(task.due_date) >= new Date() &&
-                                            task.status === 'pending'
+                                            task.status === 'completed'
                                         )
                                         .slice(0,5)
                                         .map((task: Task) => {

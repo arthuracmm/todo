@@ -14,7 +14,7 @@
       "title": "Reunião com cliente Junior",
       "description": "Reunião para apresentar o novo projeto de desenvolvimento.",
       "due_date": "2025-03-30T14:00:00Z",
-      "status": "pending",
+      "status": "completed",
       "priority": "Média",
       "category": "Trabalho"
     },
@@ -59,6 +59,168 @@
       "title": "Revisar código do projeto",
       "description": "Verificar o código do projeto para corrigir possíveis erros antes do deploy.",
       "due_date": "2025-03-26T12:00:00Z",
+      "status": "completed",
+      "priority": "Alta",
+      "category": "Trabalho"
+    },
+    {
+      "id": "8",
+      "title": "Revisar tarefa no Teams",
+      "description": "Verificar o código do projeto para corrigir possíveis erros antes do deploy.",
+      "due_date": "2025-03-26T12:00:00Z",
+      "status": "completed",
+      "priority": "Alta",
+      "category": "Trabalho"
+    },
+    {
+      "id": "e918",
+      "title": "Limpar o quarto e areia da gata",
+      "description": "nao esquecer de limpar",
+      "due_date": "2025-03-28T13:00:00.000Z",
+      "status": "completed",
+      "priority": "Media",
+      "category": "Casa"
+    },
+    {
+      "id": "9",
+      "title": "Pagar contas do mês",
+      "description": "Pagar a fatura do cartão de crédito e conta de luz.",
+      "due_date": "2025-03-25T10:00:00Z",
+      "status": "completed",
+      "priority": "Alta",
+      "category": "Financeiro"
+    },
+    {
+      "id": "10",
+      "title": "Lavar o carro",
+      "description": "Levar o carro para lavar no posto mais próximo.",
+      "due_date": "2025-04-05T15:00:00Z",
+      "status": "pending",
+      "priority": "Baixa",
+      "category": "Casa"
+    },
+    {
+      "id": "11",
+      "title": "Enviar relatório mensal",
+      "description": "Finalizar e enviar relatório de desempenho para o gerente.",
+      "due_date": "2025-03-29T17:00:00Z",
+      "status": "pending",
+      "priority": "Alta",
+      "category": "Trabalho"
+    },
+    {
+      "id": "12",
+      "title": "Fazer compras de roupas",
+      "description": "Comprar roupas novas para o inverno.",
+      "due_date": "2025-04-10T14:00:00Z",
+      "status": "pending",
+      "priority": "Média",
+      "category": "Pessoal"
+    },
+    {
+      "id": "13",
+      "title": "Marcar consulta médica",
+      "description": "Agendar consulta com o cardiologista para check-up anual.",
+      "due_date": "2025-03-20T09:00:00Z",
+      "status": "completed",
+      "priority": "Alta",
+      "category": "Saúde"
+    },
+    {
+      "id": "14",
+      "title": "Finalizar projeto do cliente",
+      "description": "Ajustar os últimos detalhes antes da entrega do projeto.",
+      "due_date": "2025-04-02T23:59:00Z",
+      "status": "pending",
+      "priority": "Alta",
+      "category": "Trabalho"
+    },
+    {
+      "id": "15",
+      "title": "Fazer revisão do carro",
+      "description": "Levar o carro para revisão e troca de óleo.",
+      "due_date": "2025-03-22T08:00:00Z",
+      "status": "completed",
+      "priority": "Média",
+      "category": "Casa"
+    },
+    {
+      "id": "16",
+      "title": "Enviar proposta para novo cliente",
+      "description": "Criar e enviar proposta comercial para um novo cliente.",
+      "due_date": "2025-03-31T11:00:00Z",
+      "status": "pending",
+      "priority": "Alta",
+      "category": "Trabalho"
+    },
+    {
+      "id": "17",
+      "title": "Organizar documentos pessoais",
+      "description": "Separar e arquivar documentos importantes.",
+      "due_date": "2025-03-27T18:00:00Z",
+      "status": "completed",
+      "priority": "Média",
+      "category": "Pessoal"
+    },
+    {
+      "id": "18",
+      "title": "Renovar passaporte",
+      "description": "Agendar horário e renovar passaporte para a viagem.",
+      "due_date": "2025-04-15T10:00:00Z",
+      "status": "pending",
+      "priority": "Alta",
+      "category": "Pessoal"
+    },
+    {
+      "id": "19",
+      "title": "Correr no parque",
+      "description": "Fazer um treino de corrida de 5km no parque.",
+      "due_date": "2025-03-24T07:00:00Z",
+      "status": "completed",
+      "priority": "Média",
+      "category": "Saúde"
+    },
+    {
+      "id": "20",
+      "title": "Comprar presente de aniversário",
+      "description": "Escolher e comprar um presente para o aniversário do amigo.",
+      "due_date": "2025-03-28T17:00:00Z",
+      "status": "pending",
+      "priority": "Média",
+      "category": "Pessoal"
+    },
+    {
+      "id": "21",
+      "title": "Estudar para o exame do TG",
+      "description": "Revisar os tópicos de álgebra e geometria para o exame de sexta-feira.",
+      "due_date": "2025-04-01T09:00:00Z",
+      "status": "completed",
+      "priority": "Média",
+      "category": "Estudos"
+    },
+    {
+      "id": "22",
+      "title": "Estudar para o trabalho",
+      "description": "Revisar os tópicos de álgebra e geometria para o exame de sexta-feira.",
+      "due_date": "2025-04-01T09:00:00Z",
+      "status": "pending",
+      "priority": "Alta",
+      "category": "Trabalho"
+    },
+    {
+      "id": "23",
+      "title": "Fazer uma ligação para o Cliente André",
+      "description": "Revisar os tópicos de álgebra e geometria para o exame de sexta-feira.",
+      "due_date": "2025-04-01T09:00:00Z",
+      "status": "completed",
+      "priority": "Média",
+      "category": "Trabalho"
+    },
+    {
+      "id": "24",
+      "title": "Fazer uma ligação para o Cliente Rafael",
+      "description": "Revisar os tópicos de álgebra e geometria para o exame de sexta-feira.",
+      "due_date": "2025-03-29T09:00:00Z",
       "status": "pending",
       "priority": "Alta",
       "category": "Trabalho"

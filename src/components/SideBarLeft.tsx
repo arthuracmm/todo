@@ -1,4 +1,4 @@
-import { CalendarSync, ChartLine, CheckCheck, ChevronDown, ClockAlert, Layers, LayoutDashboard, Plus, Settings } from "lucide-react";
+import { CalendarSync, ChartLine, CheckCheck, ChevronDown, ClockAlert, Layers, LayoutDashboard, ListStart, Plus, Settings } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const items = [
@@ -7,6 +7,12 @@ const items = [
         url: "/",
         icon: LayoutDashboard,
     },
+
+    {
+        title: "Proximas Tar.",
+        url: "/proximas",
+        icon: ListStart,
+    },
     {
         title: "Pendentes",
         url: "/pendentes",
@@ -14,8 +20,8 @@ const items = [
     },
 
     {
-        title: "Concluidas",
-        url: "/concluidas",
+        title: "Concluidos",
+        url: "/concluidos",
         icon: CheckCheck,
     },
 
@@ -23,19 +29,7 @@ const items = [
         title: "Categorias",
         url: "/categorias",
         icon: Layers,
-    },
-
-    {
-        title: "Recorrentes",
-        url: "/recorrentes",
-        icon: CalendarSync,
-    },
-
-    {
-        title: "Configurações",
-        url: "/configuracoes",
-        icon: Settings,
-    },
+    }   
 ]
 
 const verifyPath = (path: string) => {
